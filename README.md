@@ -1,6 +1,6 @@
 # Avaliando testes do Jest
 
-Jest é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
+[Jest](https://github.com/facebook/jest) é um framework de teste em JavaScript projetado para garantir a correção de qualquer código JavaScript. Ele permite que você escreva testes com uma API acessível, familiar e rica em recursos que lhe dá resultados rapidamente.
 
 Funciona em projetos que usam: Babel, TypeScript, Node, React, Angular, Vue e outros. 
 

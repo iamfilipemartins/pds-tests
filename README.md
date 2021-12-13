@@ -32,7 +32,7 @@ test('does not print to console with --silent', () => {
 });
 ```
  
-## Teste 2 - comando console silenciado durante os testes
+## Teste 2 - Verificando função .only para realizar testes específicos
 O seguinte teste realiza a execução do jest, por meio da função runJest e recebe os resultados do teste por meio da função extractSummary, onde a principal função do teste é verificar a execução do Jest apenas em testes com a tag .only, onde a mesma especifica qual teste deve ser executado em determinado arquivo. 
 
 Essa função para executar um teste específico também é utilizada frequentemente no ambiente profissional afim de facilitar na execução de um teste específico e obter o resultado do mesmo, seja porque o teste especificado estava com algum erro ou o fluxo testado no mesmo foi o único alterado durante a tarefa realizada.
@@ -46,7 +46,7 @@ test('shows only the tests with .only as being ran', () => {
   expect(wrap(rest)).toMatchSnapshot();
 });
 ```
-## Teste 3 - comando console silenciado durante os testes
+## Teste 3 - Verificação de timeouts nas requisições durante os testes
 O seguinte teste realiza a execução do jest, por meio da função runJest e recebe os resultados do teste por meio da função extractSummary, onde a principal função do teste é verificar a execução do Jest dentro de um time específico definido, que é o máximo esperado para a execução do teste. 
 
 Essa verificação é importante afim de controlar e analisar os tempos de execução de requisições realizadas dentro do fluxo, assim auxiliando no entendimento da efetividade do código desenvolvido.

@@ -4,7 +4,7 @@ Jest é um framework de teste em JavaScript projetado para garantir a correção
 
 Funciona em projetos que usam: Babel, TypeScript, Node, React, Angular, Vue e outros. 
 
-## Teste 1 - comando console silenciado durante os testes
+## Teste 1 - Comando --silent que silencia os consoles durante os testes
 O seguinte teste realiza a execução do jest, por meio da função runJest e recebe os resultados do teste por meio da função extractSummary, onde a principal função do teste é verificar a execução do Jest sem a realização de consoles durante as verificações. 
 
 Esse comando de silenciar os consoles é feito frequentemente no ambiente profissional afim de facilitar a leitura dos resultados dos testes, tanto para desenvolvedores quanto nos scripts de CI.
